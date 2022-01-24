@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+.btn {
+  width: 100%;
+  background: $primary_color;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 0;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  &:disabled {
+    background: rgba(0, 0, 0, 0.25);
+  }
+}

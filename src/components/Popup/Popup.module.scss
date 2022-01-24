@@ -1,0 +1,22 @@
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+  }
+
+  .content {
+    position: relative;
+    z-index: 100;
+  }
+}

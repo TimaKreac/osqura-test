@@ -1,0 +1,23 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 14px;
+  background: #e8ecf5;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  font-weight: 500;
+  &::placeholder {
+    color: rgba(0, 0, 0, 0.45);
+  }
+  &.error {
+    border: 2px solid rgba($color: #d41d2c, $alpha: 0.5);
+    background-color: #fff;
+  }
+}
+
+.name {
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
